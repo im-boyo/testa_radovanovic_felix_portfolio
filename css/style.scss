@@ -1,8 +1,12 @@
 @use "partials/variables";
+@use "partials/navbar";
+@use "partials/hero";
+@use "partials/objectif";
+@use "partials/portfolio";
 @use "sass:color";
 
 * {
-    box-sizing: border-box;    
+    box-sizing: border-box;
     font-family: 'Orelega One', serif;
 }
 
@@ -14,105 +18,39 @@ body {
     position: relative;
 }
 
-header{
+header {
     position: sticky;
     z-index: 3;
     background-color: black;
 }
 
-.navbar {
+.jumpTo {
+    position: relative;
+    top: -125px;
+}
+
+section {
     width: 100%;
-    height: 10%;
-    font-size: 25px;
-    border-bottom: 5px solid white;
+    height: 100vh;
+    position: relative;
+    color: white;
+}
 
-    &-brand {
-        color: var(--primary);
-        font-size: 60px;
-        padding-left: 5%;
-        transition-property: color;
-        transition-duration: 0.3s;
+.row {
+    align-items: center;
+}
 
-        &:hover {
-            color: var(--secondary);
-        }
+footer {
+    height: 90vh;
+}
+
+a {
+    color: var(--primary);
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 0.3s;
+
+    &:hover {
+        color: var(--secondary);
     }
-
-    &-collapse {
-        justify-content: flex-end;
-        padding-right: 5%;
-    }
-
-    &-nav {
-        width: 50%;
-        justify-content: space-between;
-    }
-
-    .nav {
-        &-link {
-            color: white;
-        }
-        &-item {
-            position: relative;
-
-            &::after {
-                content: "";
-                width: 0;
-                height: 3px;
-                background: var(--primary);
-                position: absolute;
-                left: 0;
-                bottom: 0;
-                transition: 0.3s;
-                }
-
-                &:hover::after {
-                    width: 100%;
-                }
-            }
-        }
-    }
-
-    .jumpTo {
-        position: relative;
-        top: -125px;
-    }
-
-    section {
-        width: 100%;
-        height: 100vh;
-        position: relative;   
-        color: white; 
-    }
-
-    .row {
-        align-items: center;
-    }
-
-    .bulles {
-        width: 100%;
-        filter: blur(5px);
-        opacity: 50%;
-        position: absolute;
-    }
-
-    .introduction {
-        font-size: 100px;
-        position: relative;
-        width: 150%;
-        left: 0;
-        a {
-            color: var(--primary);
-            text-decoration: none;
-            transition-property: color;
-            transition-duration: 0.3s;
-
-            &:hover {
-                color: var(--secondary);
-            }
-        }
-    }
-
-    footer {
-        height: 90vh;
-    }
+}

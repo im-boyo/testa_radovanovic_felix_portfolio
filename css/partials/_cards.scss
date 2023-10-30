@@ -1,0 +1,12 @@
+.card {
+    border-radius: 25px;
+    &-img-top {
+        border-radius: 25px;
+        border: white solid 2px;
+        object-fit: cover;
+        height: 500px;
+    }
+    &:hover {
+        background-size: 50%;
+    }
+}
