@@ -83,7 +83,7 @@
   font-size: 100px;
   position: absolute;
   line-height: 1.2;
-  bottom: 0;
+  bottom: 10%;
 }
 
 .objectifText {
@@ -106,8 +106,7 @@
 .card-img-top {
   border-radius: 25px;
   border: white solid 2px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   height: 500px;
 }
 .card:hover {
