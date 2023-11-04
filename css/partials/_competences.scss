@@ -1,5 +1,23 @@
 .competences {
+    h2 {
+        text-align: center;
+    }
+    .col-12 {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     img {
-        
+        width: 100%;
+    }
+    .max {
+        width: 80%;
+    }
+    .maya {
+        width: 110%;
+    }
+    .unity {
+        width: 70%;
     }
 }

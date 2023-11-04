@@ -152,6 +152,32 @@
   bottom: 0;
 }
 
+.competences h2 {
+  text-align: center;
+}
+.competences .col-12 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.competences img {
+  width: 100%;
+}
+.competences .max {
+  width: 80%;
+}
+.competences .maya {
+  width: 110%;
+}
+.competences .unity {
+  width: 70%;
+}
+
+footer {
+  color: white;
+}
+
 * {
   box-sizing: border-box;
   font-family: "Orelega One", serif;
