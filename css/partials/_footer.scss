@@ -1,9 +1,19 @@
 footer {
     height: 100%;
     color: white;
-    background-image: linear-gradient(rgba(199, 0, 0, 0) 50%, var(--secondary));
+    background-image: linear-gradient(rgba(199, 0, 0, 0) 10%, var(--secondary));
+    svg {
+        fill: white;
+        transition: 0.3s;
+        &:hover {
+            fill: var(--primary);
+        }
+    }
 }
 
-.svg {
-    width: 8%;
+.footer-icons {
+    display: flex;
+    a {
+        padding-right: 2em;
+    }
 }
