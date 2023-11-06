@@ -203,6 +203,7 @@ footer svg:hover {
 }
 .swiper-slide {
   height: 100%;
+  width: 100vw;
   object-fit: cover;
   text-align: center;
 }
@@ -221,10 +222,16 @@ footer svg:hover {
 .swiper-button-prev:hover, .swiper-button-next:hover {
   color: var(--secondary);
 }
-.swiper img {
+.swiper img, .swiper video {
   height: 70vh;
   border: 3px solid white;
   border-radius: 25px;
+}
+.swiper iframe {
+  object-fit: cover;
+  border: 3px solid white;
+  border-radius: 25px;
+  transform: scale(80%) translateY(-10%);
 }
 
 * {

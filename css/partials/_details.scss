@@ -6,6 +6,7 @@
     height: 100%;
     &-slide {
         height: 100%;
+        width: 100vw;
         object-fit: cover;
         text-align: center;
     }
@@ -24,9 +25,18 @@
             color: var(--secondary);
         }
     }
-    img {
+    img, video {
         height: 70vh;
         border: 3px solid white;
         border-radius: 25px;
     }
+    iframe {
+        object-fit: cover;
+        border: 3px solid white;
+        
+        border-radius: 25px;
+        transform: scale(80%) translateY(-10%);
+
+    }
 }
+
