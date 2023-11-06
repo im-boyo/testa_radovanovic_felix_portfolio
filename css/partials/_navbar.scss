@@ -11,6 +11,7 @@
         padding-left: 5%;
         transition-property: color;
         transition-duration: 0.3s;
+        text-shadow: 2px 2px rgb(255, 0, 179), 4px 4px blue;
 
         &:hover {
             color: var(--secondary);
@@ -30,6 +31,7 @@
     .nav {
         &-link {
             color: white;
+            font-style: normal;
         }
         &-item {
             position: relative;
