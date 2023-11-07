@@ -115,7 +115,8 @@
 .card-img-top {
   border-radius: 25px;
   border: white solid 2px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 500px;
 }
 .card:hover {
@@ -219,7 +220,8 @@ footer svg:hover {
 .swiper-slide {
   height: 100%;
   width: 100vw;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   text-align: center;
 }
 .swiper-pagination-bullet {
@@ -243,7 +245,8 @@ footer svg:hover {
   border-radius: 25px;
 }
 .swiper iframe {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border: 3px solid white;
   border-radius: 25px;
   transform: scale(80%) translateY(-10%);
