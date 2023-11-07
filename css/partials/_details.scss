@@ -42,3 +42,20 @@
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 900;
  }
+
+ @media screen and (max-width: 992px  ){
+    .swiper img, .swiper video  {
+        height: 30vh;
+    }
+
+    .swiper iframe {
+        width: 50vw;
+    }
+
+}
+
+@media screen and (max-width: 576px  ) {
+    .swiper iframe {
+        width: 80vw;
+    }
+}
