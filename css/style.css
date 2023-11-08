@@ -138,6 +138,17 @@
   box-shadow: 0 0 10px 10px var(--primary);
 }
 
+@media screen and (max-width: 992px) {
+  .card-img-top {
+    object-fit: cover;
+  }
+  .bunny, .mockup {
+    object-position: 80% 50%;
+  }
+  .craque {
+    object-position: 20% 50%;
+  }
+}
 .portfolio-title {
   font-size: 80px;
   text-shadow: 2px 2px rgb(255, 0, 179), 4px 4px blue;
@@ -234,6 +245,11 @@ footer svg:hover {
   padding-right: 2em;
 }
 
+@media screen and (max-width: 992px) {
+  footer h2 {
+    font-size: 3vw;
+  }
+}
 .swiper-section {
   height: 100%;
 }

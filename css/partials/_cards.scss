@@ -13,3 +13,22 @@
         box-shadow: 0 0 10px 10px var(--primary);
     }
 }
+
+@media screen and (max-width: 992px  ){
+    .card {
+        &-img-top {
+            object-fit: cover;
+        }
+    }
+    .bunny, .mockup {
+        object-position: 80% 50%;
+    }
+    .craque {
+        object-position: 20% 50%;
+    }
+
+}
+
+@media screen and (max-width: 576px  ) {
+
+}
