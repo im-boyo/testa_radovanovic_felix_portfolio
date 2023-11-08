@@ -26,7 +26,7 @@
         }
     }
     img, video {
-        height: 70vh;
+        height: 30vw;
         border: 3px solid white;
         border-radius: 25px;
     }
@@ -35,6 +35,7 @@
         border: 3px solid white;
         border-radius: 25px;
         transform: scale(80%) translateY(-10%);
+
 
     }
 }
@@ -45,20 +46,19 @@
 
  @media screen and (max-width: 992px  ){
     .swiper img, .swiper video  {
-        height: 30vh;
+        height: 40vw;
     }
 
-    .swiper iframe {
-        width: 50vw;
+    .swiper-elektra iframe {
+        width: 60vw;
     }
 
 }
 
 @media screen and (max-width: 576px  ) {
-    .swiper img, .swiper video {
-        height: 20vh;
-    }
-    .swiper iframe {
-        width: 80vw;
+
+    .swiper-elektra iframe {
+        width: 100vw;
+        
     }
 }

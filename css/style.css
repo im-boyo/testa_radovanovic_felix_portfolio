@@ -200,6 +200,16 @@
   width: 100%;
 }
 
+@media screen and (max-width: 992px) {
+  .competences img, .role img, .logiciels img {
+    width: 30vw;
+  }
+}
+@media screen and (max-width: 576px) {
+  .competences img, .role img, .logiciels img {
+    width: 60vw;
+  }
+}
 footer {
   height: 100%;
   color: white;
@@ -215,6 +225,9 @@ footer svg {
 }
 footer svg:hover {
   fill: var(--primary);
+}
+footer h2 {
+  font-size: 3vw;
 }
 
 .footer-icons {
@@ -253,7 +266,7 @@ footer svg:hover {
   color: var(--secondary);
 }
 .swiper img, .swiper video {
-  height: 70vh;
+  height: 30vw;
   border: 3px solid white;
   border-radius: 25px;
 }
@@ -271,18 +284,15 @@ h1 {
 
 @media screen and (max-width: 992px) {
   .swiper img, .swiper video {
-    height: 30vh;
+    height: 40vw;
   }
-  .swiper iframe {
-    width: 50vw;
+  .swiper-elektra iframe {
+    width: 60vw;
   }
 }
 @media screen and (max-width: 576px) {
-  .swiper img, .swiper video {
-    height: 20vh;
-  }
-  .swiper iframe {
-    width: 80vw;
+  .swiper-elektra iframe {
+    width: 100vw;
   }
 }
 * {

@@ -12,3 +12,20 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 992px  ){
+    .competences, .role, .logiciels {
+        img {
+            width: 30vw;
+        }
+    }
+}
+
+@media screen and (max-width: 576px  ) {
+
+    .competences, .role, .logiciels {
+        img {
+            width: 60vw;
+        }
+    }
+}
