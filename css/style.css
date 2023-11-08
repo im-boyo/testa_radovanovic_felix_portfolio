@@ -66,10 +66,8 @@
 .hero .moi {
   width: 100%;
   height: 90%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: 50% 50%;
-     object-position: 50% 50%;
+  object-fit: cover;
+  object-position: 50% 100%;
   z-index: 1;
 }
 .hero .name {
@@ -115,8 +113,8 @@
   position: relative;
   display: flex;
   align-items: center;
-  padding-top: 30%;
-  padding-bottom: 30%;
+  padding-top: 50vh;
+  padding-bottom: 20vh;
 }
 
 @media screen and (max-width: 992px) {
@@ -132,8 +130,7 @@
 .card-img-top {
   border-radius: 25px;
   border: white solid 2px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   height: 500px;
 }
 .card:hover {
@@ -237,8 +234,7 @@ footer svg:hover {
 .swiper-slide {
   height: 100%;
   width: 100vw;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   text-align: center;
 }
 .swiper-pagination-bullet {
@@ -262,8 +258,7 @@ footer svg:hover {
   border-radius: 25px;
 }
 .swiper iframe {
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border: 3px solid white;
   border-radius: 25px;
   transform: scale(80%) translateY(-10%);
@@ -283,6 +278,9 @@ h1 {
   }
 }
 @media screen and (max-width: 576px) {
+  .swiper img, .swiper video {
+    height: 20vh;
+  }
   .swiper iframe {
     width: 80vw;
   }

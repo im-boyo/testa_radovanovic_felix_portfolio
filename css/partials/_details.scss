@@ -55,6 +55,9 @@
 }
 
 @media screen and (max-width: 576px  ) {
+    .swiper img, .swiper video {
+        height: 20vh;
+    }
     .swiper iframe {
         width: 80vw;
     }
