@@ -4,32 +4,42 @@
 
 .swiper {
     height: 100%;
+
     &-slide {
         height: 100%;
         width: 100vw;
         object-fit: cover;
         text-align: center;
+        display: flex;
     }
+
     &-pagination-bullet {
         background-color: var(--secondary);
         box-shadow: 0px 0px 5px 1px black;
+
         &-active {
             background-color: var(--primary);
         }
     }
-    &-button-prev, &-button-next {
+
+    &-button-prev,
+    &-button-next {
         color: var(--primary);
         transition: 0.3s;
         transition-property: color;
+
         &:hover {
             color: var(--secondary);
         }
     }
-    img, video {
+
+    img,
+    video {
         height: 30vw;
         border: 3px solid white;
         border-radius: 25px;
     }
+
     iframe {
         object-fit: cover;
         border: 3px solid white;
@@ -39,13 +49,16 @@
 
     }
 }
- h1 {
+
+h1 {
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 900;
- }
+}
 
- @media screen and (max-width: 992px  ){
-    .swiper img, .swiper video  {
+@media screen and (max-width: 992px) {
+
+    .swiper img,
+    .swiper video {
         height: 40vw;
     }
 
@@ -53,12 +66,35 @@
         width: 60vw;
     }
 
+    .eureka iframe {
+        transform: scale(60%) translateY(-20%);
+        width: 120vw;
+    }
+
+    
+
 }
 
-@media screen and (max-width: 576px  ) {
+@media screen and (max-width: 576px) {
+
+    .swiper img,
+    .swiper video {
+        height: 50vw;
+    }
 
     .swiper-elektra iframe {
         width: 100vw;
-        
+
+    }
+
+    .swiper {
+
+        &-button-prev,
+        &-button-next {
+            padding-left: 10vw;
+            padding-right: 10vw;
+            text-shadow: 0px 0px 10px black, 0px 0px 10px black, 0px 0px 10px black;
+        }
+
     }
 }
