@@ -153,7 +153,7 @@
   position: relative;
   display: flex;
   align-items: center;
-  padding-top: 30vh;
+  padding-top: 20vh;
   padding-bottom: 20vh;
 }
 
@@ -377,6 +377,10 @@ h1 {
   box-sizing: border-box;
   font-family: "Red Hat Display", sans-serif;
   letter-spacing: 2px;
+}
+
+html {
+  overflow-x: hidden;
 }
 
 body {
