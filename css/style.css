@@ -153,7 +153,7 @@
   position: relative;
   display: flex;
   align-items: center;
-  padding-top: 50vh;
+  padding-top: 30vh;
   padding-bottom: 20vh;
 }
 
@@ -161,6 +161,15 @@
   .objectifText {
     font-size: 6vw;
     top: 20%;
+  }
+}
+@media screen and (min-width: 2300px) {
+  .objectif {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-top: 50vh;
+    padding-bottom: 20vh;
   }
 }
 .card {

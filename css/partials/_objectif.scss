@@ -1,21 +1,31 @@
 .objectifText {
     font-size: 80px;
     text-align: center;
-    
+
 }
 
 .objectif {
     position: relative;
     display: flex;
     align-items: center;
-    padding-top: 50vh;
+    padding-top: 30vh;
     padding-bottom: 20vh;
 }
 
-@media screen and (max-width: 992px  ){
+@media screen and (max-width: 992px) {
     .objectifText {
         font-size: 6vw;
         top: 20%;
     }
 
+}
+
+@media screen and (min-width: 2300px) {
+    .objectif {
+        position: relative;
+        display: flex;
+        align-items: center;
+        padding-top: 50vh;
+        padding-bottom: 20vh;
+    }
 }
