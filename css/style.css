@@ -203,6 +203,11 @@
   text-align: center;
 }
 
+@media screen and (max-width: 500px) {
+  .portfolio-title {
+    font-size: 10vw;
+  }
+}
 .bulles {
   position: absolute;
   z-index: -1;
