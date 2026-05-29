@@ -1,6 +1,7 @@
 .card {
     border-radius: 25px;
     transition: 0.3s;
+    z-index: 0;
 
     &-img-top {
         border-radius: 25px;
@@ -11,6 +12,7 @@
     &:hover {
         transform: scale(1.1);
         box-shadow: 0 0 10px 10px var(--primary);
+        z-index: 1          ;
     }
 }
 
