@@ -321,6 +321,12 @@ footer svg:hover {
 }
 .swiper-slide img {
   transition: 0.3s;
+  max-width: 85%;
+  object-fit: contain;
+  background-color: #01030F;
+}
+.swiper-slide img.grayscale {
+  background-color: #fff;
 }
 .swiper-slide img:hover {
   transform: scale(1.1);
